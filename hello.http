@@ -1,0 +1,18 @@
+
+### POST , create student
+POST http://localhost:8080/api/students
+Content-Type: text/plain
+
+Maahira
+
+### GET student by id
+GET http://localhost:8080/api/students/1
+
+### PUT , update student
+PUT http://localhost:8080/api/students/1
+Content-Type: text/plain
+
+Maahira updated
+
+### DELETE, delete student
+DELETE http://localhost:8080/api/students/1
